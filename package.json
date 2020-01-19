@@ -1,9 +1,17 @@
 {
   "name": "echarts-api-service",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "A NestJS api service sample.",
+  "author": "David López <davidlopez.david@gmail.com>",
   "license": "MIT",
+  "homepage": "https://blog.yggdrasilts.com/create-an-api-service-using-nestframework",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yggdrasilts/echarts-api-service"
+  },
+  "bugs": {
+    "url": "https://github.com/yggdrasilts/echarts-api-service/issues"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
